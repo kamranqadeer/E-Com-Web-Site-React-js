@@ -1,0 +1,116 @@
+.HeaderText {
+  font-size: 20px;
+  color: white;
+}
+.Headerhref {
+  font-style: initial;
+  font-size: 20px;
+  color: white;
+  align-self: auto;
+}
+.mainlogo {
+  height: 35px;
+  width: 35px;
+}
+
+.SliedBar {
+  background-color: #7dd4f3;
+  height: fit-content;
+}
+.userhomesidenave {
+  background-color: #a4b0f8;
+}
+.userGroupItems {
+  background-color: #bbdefb;
+}
+.UserGroupItemstext {
+  color: white;
+  font-size: 2ch;
+  text-align: left;
+  font-style: italic;
+}
+.ScrolView {
+  color: white;
+  scroll-behavior: smooth;
+  scrollbar-highlight-color: black;
+  text-align: center;
+  font-style: initial;
+}
+
+#apppage .gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+}
+
+#apppage .view {
+  background-image: url("./userHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 400px) {
+  #apppage .animated img {
+    max-height: 50vh;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #apppage .animated img {
+    max-height: 35vh;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+.banner {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: white;
+  width: auto; /* Width of new image */
+  height: auto; /* Height of new image */
+  align-self: auto
+}
+.ChildContainer{
+  margin-top: 6ch;
+  margin-right: 2ch;
+  margin-left: 2ch;
+}
+.tab1css{
+  border-radius: 5px;
+  -webkit-box-shado: inset 0 0 6px #4f25e91a;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  height: auto;
+}

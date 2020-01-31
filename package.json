@@ -1,0 +1,57 @@
+{
+  "name": "tailor.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "dayjs": "^1.8.15",
+    "express": "^4.17.1",
+    "jquery": "^3.4.0",
+    "jwt-decode": "^2.2.0",
+    "mdbreact": "^4.13.0",
+    "nodejs": "0.0.0",
+    "rc-datepicker": "^5.0.14",
+    "react": "^16.8.6",
+    "react-3d-viewer": "^1.0.12",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-image-autofit-frame": "^0.1.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.0",
+    "react-scroll-percentage": "^4.1.0",
+    "react-star-ratings": "^2.3.0",
+    "react-toastify": "^5.3.2",
+    "react-window-size": "^1.2.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.4.0",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://asia-east2-apnadarzi007.cloudfunctions.net/api"
+}
